@@ -196,10 +196,10 @@
     </div>
     <div class="row justify-content-center">
       <!-- PERGUNTA 01 -->
-      <div class="col-6" id="perguntasFrequentes" data-children=".pergunta">
+      <div class="col-md-6" id="perguntasFrequentes" data-children=".pergunta">
         <div class="pergunta py-2">
-          <a class="lead" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta1" aria-expanded="true" aria-controls="pergunta1"> → É possível cancelar a viagem?</a>
-          <div id="pergunta1" class="collapse show" role="tabpanel">
+          <a class="lead" data-toggle="collapse" href="#pergunta1" aria-expanded="true" aria-controls="pergunta1"> → É possível cancelar a viagem?</a>
+          <div id="pergunta1" class="collapse show" data-parent="#perguntasFrequentes" role="tabpanel">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non quidem commodi laboriosam porro, ut sit nostrum amet asperiores dignissimos reprehenderit eaque praesentium consequuntur, optio delectus voluptas quae, quod odio?
             </p>
@@ -208,8 +208,8 @@
         <div class="dropdown-divider"></div>
         <!-- PERGUNTA 02 -->
         <div class="pergunta py-2">
-          <a class="lead" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta2" aria-expanded="true" aria-controls="pergunta1"> → Qual a garantia que tenho se perder o voo?</a>
-          <div id="pergunta2" class="collapse" role="tabpanel">
+          <a class="lead" data-toggle="collapse" href="#pergunta2" aria-expanded="true" aria-controls="pergunta1"> → Qual a garantia que tenho se perder o voo?</a>
+          <div id="pergunta2" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non quidem commodi laboriosam porro, ut sit nostrum amet asperiores dignissimos reprehenderit eaque praesentium consequuntur, optio delectus voluptas quae, quod odio?
             </p>
@@ -218,8 +218,8 @@
         <div class="dropdown-divider"></div>
         <!-- PERGUNTA 03 -->
         <div class="pergunta py-2">
-          <a class="lead" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta3" aria-expanded="true" aria-controls="pergunta3"> → Qual a principal forma de pagamento?</a>
-          <div id="pergunta3" class="collapse" role="tabpanel">
+          <a class="lead" data-toggle="collapse" href="#pergunta3" aria-expanded="true" aria-controls="pergunta3"> → Qual a principal forma de pagamento?</a>
+          <div id="pergunta3" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non quidem commodi laboriosam porro, ut sit nostrum amet asperiores dignissimos reprehenderit eaque praesentium consequuntur, optio delectus voluptas quae, quod odio?
             </p>
@@ -228,8 +228,8 @@
         <div class="dropdown-divider"></div>
         <!-- PERGUNTA 04 -->
         <div class="pergunta py-2">
-          <a class="lead" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta4" aria-expanded="true" aria-controls="pergunta4"> → Qual o melhor destino?</a>
-          <div id="pergunta4" class="collapse" role="tabpanel">
+          <a class="lead" data-toggle="collapse" href="#pergunta4" aria-expanded="true" aria-controls="pergunta4"> → Qual o melhor destino?</a>
+          <div id="pergunta4" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non quidem commodi laboriosam porro, ut sit nostrum amet asperiores dignissimos reprehenderit eaque praesentium consequuntur, optio delectus voluptas quae, quod odio?
             </p>
@@ -238,8 +238,8 @@
         <div class="dropdown-divider"></div>
         <!-- PERGUNTA 05 -->
         <div class="pergunta py-2">
-          <a class="lead" data-toggle="collapse" data-parent="#perguntasFrequentes" href="#pergunta5" aria-expanded="true" aria-controls="pergunta5"> → Tem desconto?</a>
-          <div id="pergunta5" class="collapse" role="tabpanel">
+          <a class="lead" data-toggle="collapse" href="#pergunta5" aria-expanded="true" aria-controls="pergunta5"> → Tem desconto?</a>
+          <div id="pergunta5" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non quidem commodi laboriosam porro, ut sit nostrum amet asperiores dignissimos reprehenderit eaque praesentium consequuntur, optio delectus voluptas quae, quod odio?
             </p>
@@ -247,15 +247,55 @@
         </div>
       </div>
     </div>
+    <div class="dropdown-divider"></div>
+    <div class="text-center mt-5 mb-5">
+      <p class="small m-4">FALE CONOSCO PARA MAIS DÚVIDAS</p>
+      <a class="btn btn-primary btn-lg" href="">Entre em Contato</a>
+    </div>
   </section>
 
-
-
-
-
-
-
-
+  <!-- Footer -->
+  <footer class="bg-dark text-white">
+    <div class="container py-4">
+      <div class="row">
+        <div class="col-md-3 col-6">
+          <h4 class="h6">Páginas</h4>
+          <ul class="list-unstyled">
+            <li><a href="planos.html">Planos</a></li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="inscricao.html">Inscreva-se</a></li>
+          </ul>
+        </div>
+        <div class="col-md-3 col-6">
+          <h4 class="h6">Locais</h4>
+          <ul class="list-unstyled">
+            <li><a href="local.html">California</a></li>
+            <li><a href="local.html">Paris</a></li>
+            <li><a href="local.html">Dublin</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h4 class="h6">Dados de Contato</h4>
+          <ul class="list-unstyled text-secundary">
+            <li>contato@caravan.com</li>
+            <li>21 9899-9999</li>
+            <li>De Seg. à sex das 8h às 18h </li>
+          </ul>
+        </div>
+        <div class="col-md-2">
+          <h4 class="h6">Redes Sociais</h4>
+          <ul class="list-unstyled ">
+            <li><a class="btn btn-outline-secondary btn-block btn-sm mb-2" href="#" style="max-width: 140px;">Facebook</a></li>
+            <li><a class="btn btn-outline-secondary btn-block btn-sm mb-2" href="#" style="max-width: 140px;">Instagram</a></li>
+            <li><a class="btn btn-outline-secondary btn-block btn-sm mb-2" href="#" style="max-width: 140px;">Twitter</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="bg-primary text-center py-3">
+      <p class="mb-0">Caravan @ 2020. 👨‍💻 Desenvolvido por Diego Nonato</p>
+    </div>
+  </footer>
 
 
   <!-- === SCRIPTS BOOTSTRAP === -->
