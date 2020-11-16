@@ -11,7 +11,7 @@
 
   <!-- === CSS === -->
   <link rel="stylesheet" href="css/style.css">
-  <title>Caravan | Planos</title>
+  <title>Caravan | Home</title>
 </head>
 
 <body>
@@ -67,7 +67,7 @@
             <a href="california.html" class="dropdown-item">
               California
             </a>
-            <a href="paris.html" class="dropdown-item active">
+            <a href="paris.html" class="dropdown-item">
               Paris
             </a>
             <a href="dublin.html" class="dropdown-item">
@@ -76,7 +76,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="planos.html">Planos</a>
+          <a class="nav-link" href="planos.html">Planos</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="contato.html">Contato</a>
@@ -89,111 +89,119 @@
         </li>
       </ul>
     </div>
+
   </nav>
-  <!-- END NAV -->
 
-  <!-- SECTION PLANOS -->
   <section class="container">
-    <div class="text-center my-5">
-      <span class="h6 d-block">SEU PLANO, SUA VIAGEM</span>
-      <h1 class="display-4 text-primary">Escolha seu plano</h1>
+    <div class="my-5 text-center">
+      <span class="h6 d-block">POSSUI ALGUMA DÚVIDA?</span>
+      <h2 class="display-4 text-primary">Fale Conosco</h2>
     </div>
-
     <div class="row">
-      <div class="col-md mb-5">
-        <div class="bg-light rounded p-4 box-shadow mb-4">
-          <h2>Gold</h2>
-          <ul class="lista-plano list-unstyled">
-            <li> → 30 dias de viagem</li>
-            <li> → 3 destinos diferentes</li>
-            <li> → Passeios turísticos</li>
-            <li> → Ingressos para festas</li>
-          </ul>
-          <form>
-            <div class="form-group">
-              <select id="inputCidades" class="form-control">
-                <option>Selecione a cidade</option>
-                <option>California</option>
-                <option>Paris</option>
-                <option>Dublin</option>
-              </select>
-            </div>
-          </form>
-          <div class="row align-items-center mt-4">
-            <div class="col">
-              <a href="incricao.html" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
-            </div>
-            <div class="col">
-              <span class="h4">R$ 5.000</span>
-            </div>
+      <div class="col-lg mb-5">
+        <form class="bg-light rounded p-4 box-shadow mb-4">
+          <div class="form-group">
+            <label for="clienteNome">Nome</label>
+            <input type="text" class="form-control" id="clienteNome">
           </div>
-        </div>
+          <div class="form-group">
+            <label for="clienteEmail">Email</label>
+            <input type="email" class="form-control" id="clienteEmail">
+          </div>
+          <div class="form-group">
+            <label for="exampleInputPassword1">Telefone</label>
+            <input type="number" class="form-control" id="exampleInputPassword1">
+          </div>
+          <div class="form-group">
+            <label for="clienteMensagem"></label>
+            <textarea class="form-control" rows="5"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Enviar mensagem</button>
+        </form>
       </div>
-      <div class="col-md mb-5">
-        <div class="bg-light rounded p-4 box-shadow mb-4">
-          <h2>Platinum <span class="badge badge-success">Novo</span></h2>
-          <ul class="lista-plano list-unstyled">
-            <li> → 60 dias de viagem</li>
-            <li> → 3 destinos diferentes</li>
-            <li> → Passeios turísticos</li>
-            <li> → Ingressos para festas & shows </li>
-          </ul>
-          <form>
-            <div class="form-group">
-              <select id="inputCidades" class="form-control">
-                <option>Selecione a cidade</option>
-                <option>California</option>
-                <option>Paris</option>
-                <option>Dublin</option>
-              </select>
-            </div>
-          </form>
-          <div class="row align-items-center mt-4">
-            <div class="col">
-              <a href="incricao.html" class="btn btn-primary btn-lg btn-block">Comprar Plano</a>
-            </div>
-            <div class="col">
-              <span class="h4">R$ 9.000</span>
-            </div>
-          </div>
-        </div>
+      <!-- endereço -->
+      <div class="col-lg">
+        <h2 class="h6">NOSSA ENDEREÇO</h2>
+        <a href="#">
+          <img class="img-fluid box-shadow rounded mb-4" src="imgs/mapa.png" alt="nosso endereço">
+        </a>
+        <!-- contatos -->
+        <h2 class="h6">Dados de Contato</h2>
+        <ul class="list-unstyled text-secundary">
+          <li>contato@caravan.com</li>
+          <li>21 9899-9999</li>
+          <li>De Seg. à sex das 8h às 18h </li>
+        </ul>
+        <!-- redes sociais -->
+        <h2 class="h6">Redes Sociais</h2>
+        <ul class="list-unstyled" style="max-width: 140px;">
+          <li><a class="btn btn-outline-secondary btn-block btn-sm mb-2" href="#">Facebook</a></li>
+          <li><a class="btn btn-outline-secondary btn-block btn-sm mb-2" href="#">Instagram</a></li>
+          <li><a class="btn btn-outline-secondary btn-block btn-sm mb-2" href="#">Twitter</a></li>
+        </ul>
       </div>
     </div>
   </section>
 
   <section class="container">
-    <div class="text-center my-5">
-      <span class="h6 d-block">AS MELHORES FESTAS DO MUNDO</span>
-      <h1 class="display-4 text-primary">Vai ficar de fora?</h1>
+    <div class="my-5 text-center">
+      <span class="h6 d-block">AINDA ESTÁ COM DÚVIDAS?</span>
+      <h2 class="display-4 text-primary">Perguntas frequentes</h2>
     </div>
-
-    <div class="card-group">
-      <div class="card">
-        <img class="card-img-top" src="imgs/festas/california.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">California</h5>
-          <p class="card-text"><small class="text-muted">Close to Stop</small></p>
+    <div class="row justify-content-center">
+      <!-- PERGUNTA 01 -->
+      <div class="col-md-6" id="perguntasFrequentes" data-children=".pergunta">
+        <div class="pergunta py-2">
+          <a class="lead" data-toggle="collapse" href="#pergunta1" aria-expanded="true" aria-controls="pergunta1"> → É possível cancelar a viagem?</a>
+          <div id="pergunta1" class="collapse show" data-parent="#perguntasFrequentes" role="tabpanel">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non quidem commodi laboriosam porro, ut sit nostrum amet asperiores dignissimos reprehenderit eaque praesentium consequuntur, optio delectus voluptas quae, quod odio?
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="imgs/festas/paris.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Paris</h5>
-          <p class="card-text"><small class="text-muted">Last Dance</small></p>
+        <div class="dropdown-divider"></div>
+        <!-- PERGUNTA 02 -->
+        <div class="pergunta py-2">
+          <a class="lead" data-toggle="collapse" href="#pergunta2" aria-expanded="true" aria-controls="pergunta1"> → Qual a garantia que tenho se perder o voo?</a>
+          <div id="pergunta2" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non quidem commodi laboriosam porro, ut sit nostrum amet asperiores dignissimos reprehenderit eaque praesentium consequuntur, optio delectus voluptas quae, quod odio?
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="card">
-        <img class="card-img-top" src="imgs/festas/dublin.jpg" alt="Card image cap">
-        <div class="card-body">
-          <h5 class="card-title">Dublin</h5>
-          <p class="card-text"><small class="text-muted">One Time</small></p>
+        <div class="dropdown-divider"></div>
+        <!-- PERGUNTA 03 -->
+        <div class="pergunta py-2">
+          <a class="lead" data-toggle="collapse" href="#pergunta3" aria-expanded="true" aria-controls="pergunta3"> → Qual a principal forma de pagamento?</a>
+          <div id="pergunta3" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non quidem commodi laboriosam porro, ut sit nostrum amet asperiores dignissimos reprehenderit eaque praesentium consequuntur, optio delectus voluptas quae, quod odio?
+            </p>
+          </div>
+        </div>
+        <div class="dropdown-divider"></div>
+        <!-- PERGUNTA 04 -->
+        <div class="pergunta py-2">
+          <a class="lead" data-toggle="collapse" href="#pergunta4" aria-expanded="true" aria-controls="pergunta4"> → Qual o melhor destino?</a>
+          <div id="pergunta4" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non quidem commodi laboriosam porro, ut sit nostrum amet asperiores dignissimos reprehenderit eaque praesentium consequuntur, optio delectus voluptas quae, quod odio?
+            </p>
+          </div>
+        </div>
+        <div class="dropdown-divider"></div>
+        <!-- PERGUNTA 05 -->
+        <div class="pergunta py-2">
+          <a class="lead" data-toggle="collapse" href="#pergunta5" aria-expanded="true" aria-controls="pergunta5"> → Tem desconto?</a>
+          <div id="pergunta5" class="collapse" data-parent="#perguntasFrequentes" role="tabpanel">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid non quidem commodi laboriosam porro, ut sit nostrum amet asperiores dignissimos reprehenderit eaque praesentium consequuntur, optio delectus voluptas quae, quod odio?
+            </p>
+          </div>
         </div>
       </div>
     </div>
   </section>
-
-
-
 
   <!-- Footer -->
   <footer class="bg-dark text-white mt-5">
