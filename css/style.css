@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,6 +8,7 @@
 
 body {
   padding-top: 75px;
+  font-family: 'Josefin Sans', sans-serif;
 }
 
 .box-shadow {
@@ -27,4 +30,13 @@ body {
   .fixed-top {
     position: relative;
   }
+}
+
+.lista-plano li {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  padding: 1rem;
+}
+
+.lista-plano li:last-child {
+  border-bottom: 0;
 }
