@@ -1,4 +1,3 @@
-<h1>Título do Projeto</h1>
 
 <p align="center">
 <image src="logo.png"/></br>
@@ -11,12 +10,6 @@
 <a href="#como-contribuir-">Como Contribuir</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 <a href="#licença-scroll">Licença</a>&nbsp;&nbsp;&nbsp; | &nbsp;&nbsp;&nbsp;
 </p>
-
-<p align="center">
-<image src="https://img.shields.io/badge/Shields-customizados-red"/>
-</p>
-
-Clique [aqui](https://shields.io/) e selecione escudos para o seu projeto.
 
 ## Apresentação do Projeto :sparkles:
 
